@@ -1,0 +1,223 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+header{
+    background-color: rgba(20, 54, 66);
+    background-image: url("asset/Coffe\ Header.png");
+    background-blend-mode: overlay;
+    background-size:cover;
+    width:100%;
+    height:700px;
+    opacity:0.85;
+    border-radius:30px;
+}
+
+/*------------------- Header Top -------------------*/
+header .container{
+    width:1554px;
+    margin:auto;
+}
+
+.header-top{
+    padding-top:39px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    padding-left:50px;
+    padding-right: 49px;
+    font-size:30px;
+    line-height:36px;
+    font-family: 'lato', sans-serif;
+    text-decoration: none;
+    color:white;
+}
+
+.logo img{
+    width:335px;
+    height:67px;
+}
+
+/*--------------------- Header Bottom ------------------*/
+.header-bottom{
+    text-align:center;
+    padding-top:169px;
+    font-family: 'lato', sans-serif;
+}
+
+.header-bottom h1{
+    font-size:70px;
+    color:white;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.header-bottom p{
+    font-size:36px;
+    color:white;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+/*------------------ main ------------------------*/
+.wrapper{
+    padding-top:100px;
+    margin:auto;
+}
+
+.wrapper h1{
+    font-size:48px;
+    color: rgba(15, 139, 141);
+    padding-bottom:20px;
+    margin-top:0px;
+    
+}
+
+.wrapper p{
+    font-size: 24px;
+    color: rgba(20, 54, 66);
+}
+
+.wrapper a{
+    text-decoration: none;
+    display:inline-block;
+    width:335px;
+    height:70px;
+    background-color: rgba(138, 32, 26);
+    border-radius:35px;
+    text-align:center;
+    line-height:70px;
+    font-size:24px;
+    color: rgba(249,251, 254);
+}
+
+/*------------------ Who Are We -------------------*/
+.whoAreWe{
+    display:flex;
+    width:925px;
+    height:460px;
+}
+
+.whoAreWe h1{
+    border-bottom:solid rgba(236, 154, 41) 5px;
+}
+
+.whoAreWe .desc{
+    padding-left:138px;
+    font-family: 'lato', sans-serif;
+}
+
+/*------------------- showcase ---------------------------*/
+.showcase{
+    display:flex;
+    width:926px;
+    height:335px;
+}
+
+
+.showcase .desc{
+    padding-right:166px;
+    font-family: 'lato', sans-serif;
+}
+
+/*------------------ Hang out with us ---------------------*/
+.hangOutWithUs{
+    display:flex;
+    width:989px;
+    height:453px;
+}
+
+.hangOutWithUs .desc{
+    padding-left:138px;
+    font-family: 'lato', sans-serif;
+}
+
+/*----------------- Follow Us Insta ------------------------*/
+.followUs{
+    width:927px;
+    height:632px;
+}
+
+.followUs h1{
+    text-align:center;
+    padding-bottom:0px; 
+}
+
+h1 span{
+    color:rgba(236, 154, 41);
+    padding-bottom:5px;
+    border-bottom:solid;
+}
+
+.row{
+    display:flex;
+    margin-top:50px;
+    justify-content:space-between;
+}
+
+.row img{
+    height:237px;
+    width:237px;
+}
+
+/*------------------- Contact us ----------------------------*/
+.contact{
+    height:197px;
+    width:877px;
+    text-align: center;
+    padding-bottom:100px;
+}
+
+.contact h1{
+    padding-bottom:0px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.contace p{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+/*------------------------- footer -----------------------------*/
+
+footer{
+    height:460px;
+    background-color: rgba(20, 54, 66);
+    border-radius: 30px;
+    display:flex;
+    padding-left:138px;
+    padding-right:138px;
+    padding-top:80px;
+    text-align: left;
+    justify-content: space-between;
+}
+
+footer div{
+    flex:auto;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer h1, li{
+    font-size:24px;
+    font-family:'lato', sans-serif;
+}
+
+footer ul{
+    padding-left:0px;
+}
+
+footer li{
+    color:white;
+}
+
+footer h1{
+    color:rgba(236, 154, 41);
+}

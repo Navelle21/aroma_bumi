@@ -1,0 +1,175 @@
+body{
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+}
+
+main{
+    flex:1;
+}
+
+.logo{
+    height:68px;
+    width:335px;
+    margin-top:39px;
+}
+
+header{
+    height:145px;
+    background-color:rgba(15, 139, 141);
+    display:flex;
+    justify-content: space-between;
+    padding-right:139px;
+    padding-left:139px;
+}
+
+header img{
+    width:335px;
+    height:68px;
+}
+
+nav{
+    line-height:145px;
+}
+
+nav a{
+    text-decoration: none;
+    padding-left:50px;
+    padding-right:49px;
+    color:rgba(249, 251, 254);
+    font-family: 'lato', sans-serif;
+    font-size: 30px;
+}
+
+.top-wrapper{
+    text-align: center;
+    font-family: 'lato', sans-serif;
+}
+
+.top-wrapper h1{
+    color:rgba(15, 139, 141, 1)
+}
+
+
+
+/*------------------------ main ---------------------------*/
+
+.product-container{
+    height:500px;
+    width:1048px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:50px;
+    display:flex;
+    padding:0px;
+}
+
+.product-desc{
+    font-family: 'lato', sans-serif;
+}
+
+.product-desc h1{
+    font-size:48px;
+    color:rgba(15, 139, 141, 1);
+    padding:0px;
+    margin-top:99px;
+    margin-bottom:0px;
+}
+
+.product-desc p{
+    font-size:24px;
+    margin-top:30px;
+    margin-bottom:0xp;
+}
+
+.product-desc h2{
+    font-size:60px;
+    color:rgba(15, 139, 141, 1);
+    margin-top:60px;
+}
+
+.description{
+    font-family: 'lato', sans-serif;
+    width:920px;
+    height:305px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:100px;
+}
+
+.description h1{
+    font-weight: 500;
+    color:rgba(15, 139, 141, 1);
+    border-bottom:solid rgba(236, 154, 41) 5px;
+    font-size:48px;
+    display:inline-block;
+    width:381px;
+    padding-bottom:20px;
+    margin-bottom:0px;
+}
+
+.description p{
+    padding-top:20px;
+    padding-bottom:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    font-size:24px;
+}
+
+.description a{
+    margin-top:45px;
+    text-decoration: none;
+    display:inline-block;
+    width:335px;
+    height:70px;
+    background-color: rgba(138, 32, 26);
+    border-radius:35px;
+    text-align:center;
+    line-height:70px;
+    font-size:24px;
+    color: rgba(249,251, 254);
+}
+
+span{
+    font-weight: 900;
+}
+
+/*------------------------ footer --------------------------*/
+footer{
+    height:460px;
+    background-color: rgba(20, 54, 66);
+    border-radius: 30px;
+    display:flex;
+    padding-left:138px;
+    padding-right:138px;
+    padding-top:80px;
+    text-align: left;
+    justify-content: space-between;
+}
+
+footer div{
+    flex:auto;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer h1, li{
+    font-size:24px;
+    font-family:'lato', sans-serif;
+}
+
+footer ul{
+    padding-left:0px;
+}
+
+footer li{
+    color:white;
+}
+
+footer h1{
+    color:rgba(236, 154, 41);
+}

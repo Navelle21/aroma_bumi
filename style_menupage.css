@@ -1,0 +1,153 @@
+body{
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+}
+
+main{
+    flex:1;
+}
+
+.logo{
+    height:68px;
+    width:335px;
+    margin-top:39px;
+}
+
+header{
+    height:145px;
+    background-color:rgba(15, 139, 141);
+    display:flex;
+    justify-content: space-between;
+    padding-right:139px;
+    padding-left:139px;
+}
+
+header img{
+    width:335px;
+    height:68px;
+}
+
+nav{
+    line-height:145px;
+}
+
+nav a{
+    text-decoration: none;
+    padding-left:50px;
+    padding-right:49px;
+    color:rgba(249, 251, 254);
+    font-family: 'lato', sans-serif;
+    font-size: 30px;
+}
+
+.top-wrapper{
+    text-align: center;
+    font-family: 'lato', sans-serif;
+}
+
+.top-wrapper h1{
+    color:rgba(15, 139, 141, 1)
+}
+
+
+
+/*------------------------ main ---------------------------*/
+.coffe-background img{
+    border-radius: 20px;
+    height: 216px;
+    width: 216px;
+}
+
+.coffee-image img{
+    height:139.63px;
+    width:186px;
+}
+
+
+.menu-container{
+    margin-left:auto;
+    margin-right:auto;
+    width:888px;
+    display:grid;  
+    grid-template-columns: repeat(3, 216px);
+    grid-column-gap: 120px;
+    grid-row-gap: 40px;
+    padding-top:20px;
+    padding-bottom:80px;
+}
+
+.menu-image{
+    position:relative;
+}
+
+.coffee-image{
+    position:absolute;
+    top : 74px;
+    left: 14px;
+}
+
+.menu-desc{
+    position:absolute;
+    z-index:1;
+    top:0px;
+    left:59px;
+    text-align: center;
+    color:rgba(249, 251, 254);
+    font-family: 'lato', sans-serif;
+}
+
+.menu-desc h1{
+    font-size:20px;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+.menu-desc p{
+    margin-top:0px;
+    font-size:18px;
+}
+
+.menu-coffee{
+    position:relative;
+}
+
+/*------------------------ footer --------------------------*/
+footer{
+    height:460px;
+    background-color: rgba(20, 54, 66);
+    border-radius: 30px;
+    display:flex;
+    padding-left:138px;
+    padding-right:138px;
+    padding-top:80px;
+    text-align: left;
+    justify-content: space-between;
+}
+
+footer div{
+    flex:auto;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer h1, li{
+    font-size:24px;
+    font-family:'lato', sans-serif;
+}
+
+footer ul{
+    padding-left:0px;
+}
+
+footer li{
+    color:white;
+}
+
+footer h1{
+    color:rgba(236, 154, 41);
+}

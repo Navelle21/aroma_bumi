@@ -1,0 +1,150 @@
+body{
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+}
+
+main{
+    flex:1;
+}
+
+.logo{
+    height:68px;
+    width:335px;
+    margin-top:39px;
+}
+
+header{
+    height:145px;
+    background-color:rgba(15, 139, 141);
+    display:flex;
+    justify-content: space-between;
+    padding-right:139px;
+    padding-left:139px;
+}
+
+header img{
+    width:335px;
+    height:68px;
+}
+
+nav{
+    line-height:145px;
+}
+
+nav a{
+    text-decoration: none;
+    padding-left:50px;
+    padding-right:49px;
+    color:rgba(249, 251, 254);
+    font-family: 'lato', sans-serif;
+    font-size: 30px;
+}
+
+.top-wrapper{
+    text-align: center;
+    font-family: 'lato', sans-serif;
+}
+
+.top-wrapper h1{
+    color:rgba(15, 139, 141, 1)
+}
+
+
+
+/*------------------------ main ---------------------------*/
+
+.findus-container{
+    display:flex;
+    width:1164px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+.address-wrapper{
+    font-family: 'lato', sans-serif;
+    padding-right:50px;
+}
+
+.caption h1{
+    color:rgba(15, 139, 141, 1);
+    font-size:48px;
+    font-weight:800px;
+    padding-bottom:20px;
+    margin-bottom:0px;
+}
+
+.caption p{
+    padding-top:0px;
+    margin-top:0px;
+    font-size:24px;
+}
+
+.address{
+    width:474px;
+    color: rgba(20, 54, 66, 1);
+    border: solid rgba(210, 210, 210, 1) 1px;
+    border-radius:20px;
+    padding-top:20px;
+    padding-bottom:72px;
+    padding-left:45px;
+    padding-right:46px;
+    margin-bottom:20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.address h1{
+    margin:0px; 
+    padding-bottom:20px;  
+}
+
+.address p{
+    margin:0px;
+    font-size:24px;
+}
+
+.map{
+    padding-top:118px;
+}
+
+/*------------------------ footer --------------------------*/
+footer{
+    height:460px;
+    background-color: rgba(20, 54, 66);
+    border-radius: 30px;
+    display:flex;
+    padding-left:138px;
+    padding-right:138px;
+    padding-top:80px;
+    text-align: left;
+    justify-content: space-between;
+}
+
+footer div{
+    flex:auto;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer h1, li{
+    font-size:24px;
+    font-family:'lato', sans-serif;
+}
+
+footer ul{
+    padding-left:0px;
+}
+
+footer li{
+    color:white;
+}
+
+footer h1{
+    color:rgba(236, 154, 41);
+}

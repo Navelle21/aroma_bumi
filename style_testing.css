@@ -1,0 +1,30 @@
+.parent{
+    height:500px;
+    width:500px;
+    background-color:blue;
+    position:relative;
+    top:0px;
+    left:0px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.child {
+    height:100px;
+    width:100px;
+    position:absolute;
+}
+
+.n1{
+    background-color: red;
+    top:10px;
+    left:10px;
+}
+
+.n2{
+    background-color: green;
+    top:0px;
+    left:0px;
+}
+
+

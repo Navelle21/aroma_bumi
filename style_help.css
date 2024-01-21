@@ -1,0 +1,171 @@
+body{
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+}
+
+main{
+    flex:1;
+}
+
+.logo{
+    height:68px;
+    width:335px;
+    margin-top:39px;
+}
+
+header{
+    height:145px;
+    background-color:rgba(15, 139, 141);
+    display:flex;
+    justify-content: space-between;
+    padding-right:139px;
+    padding-left:139px;
+}
+
+header img{
+    width:335px;
+    height:68px;
+}
+
+nav{
+    line-height:145px;
+}
+
+nav a{
+    text-decoration: none;
+    padding-left:50px;
+    padding-right:49px;
+    color:rgba(249, 251, 254);
+    font-family: 'lato', sans-serif;
+    font-size: 30px;
+}
+
+.top-wrapper{
+    text-align: center;
+    font-family: 'lato', sans-serif;
+}
+
+.top-wrapper h1{
+    color:rgba(15, 139, 141, 1)
+}
+
+
+
+/*------------------------ main ---------------------------*/
+
+main{
+    font-family: 'lato', sans-serif;
+}
+
+.form-wrapper{
+    margin-top:100px;
+    margin-bottom:100px;    
+    width:926px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.form-wrapper h1{
+    color:rgba(15, 139, 141, 1);
+    font-size:48px;
+    font-weight:800px;
+}
+
+.form-container{
+    border: solid rgba(210, 210, 210, 1) 2px;
+    border-radius:20px;
+    padding-left:98px;
+    padding-right:98px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.form-container p{
+    color:rgba(20, 54, 66, 1);
+    font-size:30px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.item{
+    margin-bottom:20px;
+ 
+}
+
+input{
+    font-size:24px;
+    font-weight:400;
+    color:rgba(210, 210, 210, 1);
+    border: solid rgba(210, 210, 210, 1) 2px;
+    border-radius:20px;
+    height:71;
+    width:493px;
+    margin-left:auto;
+}
+
+.message input{
+    height:200px;
+}
+
+.form{
+    display:flex;
+}
+
+.form-container a{
+    margin-top:50px;
+    margin-left:257px;
+    margin-right:257px;
+    text-decoration: none;
+    display:inline-block;
+    width:216px;
+    height:70px;
+    background-color: rgba(138, 32, 26);
+    border-radius:35px;
+    text-align:center;
+    line-height:70px;
+    font-size:24px;
+    color: rgba(249,251, 254);
+}
+
+
+
+/*------------------------ footer --------------------------*/
+footer{
+    height:460px;
+    background-color: rgba(20, 54, 66);
+    border-radius: 30px;
+    display:flex;
+    padding-left:138px;
+    padding-right:138px;
+    padding-top:80px;
+    text-align: left;
+    justify-content: space-between;
+}
+
+footer div{
+    flex:auto;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer h1, li{
+    font-size:24px;
+    font-family:'lato', sans-serif;
+}
+
+footer ul{
+    padding-left:0px;
+}
+
+footer li{
+    color:white;
+}
+
+footer h1{
+    color:rgba(236, 154, 41);
+}
